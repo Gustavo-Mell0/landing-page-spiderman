@@ -1,0 +1,119 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(/src/backgrond-logo-alternative.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #020220;
+    justify-content:space-around;
+    max-height: 90px;
+}
+
+.cabecalho .cabecalho-imagem {
+    display: flex;   
+     justify-content:flex-start; 
+    margin-bottom: 20px;
+}
+
+
+.cabecalho .cabecalho-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 20px;
+}
+
+.cabecalho .cabecalho-lista-item {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.cabecalho .cabecalho-lista-item:hover {
+    background-color:#7e0303;
+    transition: 0.7s;
+}
+
+.cabecalho-link {
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    gap: 40px;
+    padding-top: 25px;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  padding-bottom: 5%;
+}
+
+.main-container-center{
+    padding: 5%;
+    max-width: 40%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-container-center .main-container-paragrafo{
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.main-container-paragrafo .cor{
+    color: #9b0505;
+}
+
+.main-button{
+    display: flex;
+    max-width: 100%;
+    gap: 25px;
+}
+
+.main-button .main-button-estilo {
+ background-color: #aa0707; 
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 5px 25px;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 95px;
+    background-color: #020220;
+}
+
+.rodape .rodape-item {
+    padding: 30px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.rodape .rodape-item-link {
+    color: #9b0505;
+    text-decoration: none;
+}
